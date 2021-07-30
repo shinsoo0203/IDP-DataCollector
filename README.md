@@ -1,7 +1,6 @@
 # IDP Data Collector
-------------
+
 This package lets you collect the autonomous/connected car sensor data with ROS.
-------------
 
 ## Prerequisites
 
@@ -15,12 +14,10 @@ This package lets you collect the autonomous/connected car sensor data with ROS.
 - AI stereo camera: ZED 2
 - RTK-GPS: NEO-M8P-2 Board
 
-------------
-
-
 ## Settings
 
-### ZED 2 Stereo Camera
+#### ZED2 Stereo Camera
+
 - SDK install
 
 '''
@@ -50,7 +47,7 @@ $ rm -rf devel
 $ catkin_make -DCMAKE_BUILD_TYPE=Release
 '''
 
-    + Run the ZED wrapper
+- Run the ZED wrapper
 
 '''
 $ roslaunch zed_wrapper zed2.launch
