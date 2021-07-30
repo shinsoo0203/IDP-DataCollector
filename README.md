@@ -27,7 +27,9 @@ $ git submodule update --init --recursive
 
 - Add submodule on this repository
 ```
-$ git submodule add [submodule git address]
+Fork the target github repository
+$ cd ~/src
+$ git submodule add [forked submodule git address]
 ```
 
 #### usb camera

@@ -1,3 +1,6 @@
 [submodule "src/zed-ros-wrapper"]
 	path = src/zed-ros-wrapper
 	url = https://github.com/shinsoo0203/zed-ros-wrapper.git
+[submodule "src/usb_cam"]
+	path = src/usb_cam
+	url = https://github.com/shinsoo0203/usb_cam.git
