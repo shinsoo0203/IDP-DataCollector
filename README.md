@@ -1,5 +1,5 @@
 # IDP Data Collector
-
+------------
 This package lets you collect the autonomous/connected car sensor data with ROS.
 ------------
 
@@ -20,14 +20,14 @@ This package lets you collect the autonomous/connected car sensor data with ROS.
 
 ## Settings
 
-- ZED 2 Stereo Camera
-    + SDK install
+### ZED 2 Stereo Camera
+- SDK install
 
 '''
 $ cd /usr/local/zed
 '''
 
-    + Build the repository
+- Build the repository
 
 '''
 $ cd ~/src
@@ -38,7 +38,7 @@ $ catkin_make -DCMAKE_BUILD_TYPE=Relase
 $ source ./devel/setup.bash
 '''
 
-    + Update the repository and re-build
+- Update the repository and re-build
 
 '''
 $ git checkout master
