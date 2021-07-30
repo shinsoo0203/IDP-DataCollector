@@ -5,7 +5,7 @@ This package lets you collect the autonomous/connected car sensor data with ROS.
 ## Prerequisites
 
 - Ubuntu 18.04
-- GPU: RTX 2060 Super / RTX 1650 Ti
+- GPU: RTX 2060 Super / GTX 1650 Ti
 - [CUDA 11.0](https://developer.nvidia.com/cuda-downloads)
 - [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
@@ -14,6 +14,14 @@ This package lets you collect the autonomous/connected car sensor data with ROS.
 
 - AI stereo camera: ZED 2
 - RTK-GPS: NEO-M8P-2 Board
+
+
+## Build this repository
+```
+$ cd ~/src
+$ git clone https://github.com/shinsoo0203/IDP-DataCollector.git
+$ git submodule update --init --recursive
+```
 
 
 ## Settings
