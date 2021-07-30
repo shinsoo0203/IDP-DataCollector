@@ -23,8 +23,14 @@ $ git clone https://github.com/shinsoo0203/IDP-DataCollector.git
 $ git submodule update --init --recursive
 ```
 
-
 ## Settings
+
+- Add submodule on this repository
+```
+$ git submodule add [submodule git address]
+```
+
+#### usb camera
 
 #### ZED2 Stereo Camera
 
@@ -36,7 +42,7 @@ $ cd /usr/local/zed
 - Build the repository
 ```
 $ cd ~/src
-$ git clone --recursive https://github.com/stereolabs/zed-ros-wrapper.git
+$ git clone --recursive https://github.com/shinsoo0203/zed-ros-wrapper.git
 $ cd ../
 $ rosdep install --from-paths src --ignore-src -r -y
 $ catkin_make -DCMAKE_BUILD_TYPE=Relase
