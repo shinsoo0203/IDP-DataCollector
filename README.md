@@ -19,7 +19,7 @@ This package lets you collect the autonomous/connected car sensor data with ROS.
 ## Build this repository
 ```
 $ cd ~/src
-$ git clone https://github.com/shinsoo0203/IDP-DataCollector.git
+$ git clone --recursive https://github.com/shinsoo0203/IDP-DataCollector.git
 $ git submodule update --init --recursive
 ```
 
