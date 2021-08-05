@@ -2,10 +2,13 @@
 
 This package lets you collect the autonomous/connected car sensor data with ROS.
 
-## Prerequisites
+## Environment
 
 - Ubuntu 18.04
 - GPU: RTX 2060 Super / GTX 1650 Ti
+
+## Prerequisite
+
 - [CUDA 11.0](https://developer.nvidia.com/cuda-downloads)
 - [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
@@ -23,7 +26,12 @@ $ git clone --recursive https://github.com/shinsoo0203/IDP-DataCollector.git
 $ git submodule update --init --recursive
 ```
 
-## Settings
+## Usage
+```
+$ rosbag record /tf_static /ublox_gps/fix /ublox_gps/navpvt /ublox_gps/navsat /ublox_gps/fix_velocity /ublox_gps/navstatus /zed2/zed_node/imu/data /zed2/zed_node/left/camera_info /zed2/zed_node/left/image_rect_color /zed2/zed_node/left_cam_imu_transform /zed2/zed_node/point_cloud/cloud_registered /zed2/zed_node/pose /zed2/zed_node/right/camera_info /zed2/zed_node/right/image_rect_color /zed2/zed_node/stereo/image_rect_color
+```
+
+## Files
 
 - Add submodule on this repository
 ```
@@ -65,4 +73,9 @@ $ catkin_make -DCMAKE_BUILD_TYPE=Release
 - Run the ZED wrapper
 ```
 $ roslaunch zed_wrapper zed2.launch
+```
+
+### ublox gps
+```
+$ roslaunch ublox_gps ublox_device.launch node_name:=ublox_gps param_file_name:=neo_m8p_rover
 ```
