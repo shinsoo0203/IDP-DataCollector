@@ -7,12 +7,3 @@
 [submodule "src/ublox"]
 	path = src/ublox
 	url = https://github.com/shinsoo0203/ublox.git
-[submodule "src/kvaser_interface"]
-	path = src/kvaser_interface
-	url = https://github.com/astuff/kvaser_interface.git
-[submodule "src/rslidar_sdk"]
-	path = src/rslidar_sdk
-	url = https://github.com/RoboSense-LiDAR/rslidar_sdk.git
-[submodule "src/rs_driver"]
-	path = src/rs_driver
-	url = https://github.com/RoboSense-LiDAR/rs_driver.git

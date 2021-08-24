@@ -81,3 +81,18 @@ $ roslaunch zed_wrapper zed2.launch
 ```
 $ roslaunch ublox_gps ublox_device.launch node_name:=ublox_gps param_file_name:=neo_m8p_rover
 ```
+
+#### kvaser can
+```
+$ git submodule add https://github.com/astuff/kvaser_interface.git
+$ sudo apt-get install ros-melodic-can-msgs
+$ roslaunch kvaser_interface kvaser_can_bridge.launch
+```
+
+#### rslidar
+```
+$ git submodule add https://github.com/rslidar_sdk.git
+setting computer IP = 192.168.1.102
+setting lidar IP = 192.168.1.200
+$ roslaunch rslidar_sdk start.launch
+```
