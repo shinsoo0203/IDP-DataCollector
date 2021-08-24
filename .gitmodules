@@ -7,3 +7,9 @@
 [submodule "src/ublox"]
 	path = src/ublox
 	url = https://github.com/shinsoo0203/ublox.git
+[submodule "src/kvaser_interface"]
+	path = src/kvaser_interface
+	url = https://github.com/shinsoo0203/kvaser_interface.git
+[submodule "src/rslidar_sdk"]
+	path = src/rslidar_sdk
+	url = https://github.com/shinsoo0203/rslidar_sdk.git
